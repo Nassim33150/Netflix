@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+   
+}
+
+
+body {   
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background: url("https://images.frandroid.com/wp-content/uploads/2022/10/netflix-octobre-contenus-2022.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+
+
+body::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+
+
+ 
+  
+.header {
+    
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    padding: 10px 8%;
+    position: relative;
+    
+    z-index: 2;
+    
+  
+
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    
+    
+    
+   
+}
+
+
+
+
+.logo {
+    width: 130px;
+    cursor:pointer;
+    height: 130px;
+    z-index: 2;
+   margin-top: -30px;
+    margin-left: -80px;
+    
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    height: 30px;
+    z-index: 2;
+    margin-right: -80px;
+
+    
+
+}
+
+nav button:hover {
+    background-color: rgba(211, 8, 18, 0.815);
+}
+
+
+
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 6px 10px;
+    border-radius: 3px;
+    color: #fff;
+    z-index: 2;
+    padding-left: 10px;
+    
+    cursor: pointer;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+.header-content {
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 140px;
+    z-index: 2;
+}
+
+.header-content h1 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 600;
+    width: 750px;
+    z-index: 2;
+}
+
+.header-content h3 {
+    font-weight: 400 ;
+    margin-bottom: 20px;
+    font-size:  14px; 
+    z-index: 2;
+    
+
+}
+
+.email-signup{
+    background: #fff;
+    
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    overflow: hidden;
+    z-index: 2;
+
+}
+
+ .email {
+    height: 47px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    width: 300px;
+    border-radius: 2px;
+    padding-left: 10px;
+    font-size: 10px;
+    z-index: 2;
+    
+}
+
+ button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 15px 30px ;
+    border-radius: 2px;
+    padding-left: 17px;
+    height: 49px;
+    z-index: 2;
+    
+    
+    
+}
+
+button:hover {
+    background-color: rgba(211, 8, 18, 0.815);
+}
+p {
+    font-size: 12px;
+    z-index: 2;
+}
+
+span {
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+.netflix {
+    background-color: transparent;
+    height: 90px;
+}
+
+.netflix img {
+    width: 130px;
+    position: relative;
+    z-index: 2;
+    margin-left: 40px;
+    height: 130px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+    
+}
+.identification {
+    background-color: rgba(0, 0, 0, .50);
+    height:450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    padding-top: 70px;
+    padding: 20px;
+    line-height: 70px;
+    
+    
+    
+}
+
+.checkbox {
+    padding: 0px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+    
+.visite {
+    margin-top: -20px ;
+    margin-left: 20px;
+    color: #737373;
+    
+}
+
+.visite a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 5px;
+   
+}
+
+h2 {
+    font-size: 20px;
+}
+
+input {
+    padding: 16px 20px;
+    border-radius: 3px;
+    background-color: #333;
+    font-size: 12px;
+    margin:5px 0;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+
+
+
+.submit {
+    background-color: rgb(211, 8,18);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.submit:hover{
+    background-color: rgba(211, 8, 18, 0.815);
+}
+
+
+.Aide {
+    padding-left: 80px;
+}
+
+.captcha {
+    line-height: normal;
+    font-size: 9px;
+    margin-top: -10px;
+    margin-left: 20px;
+    color: #737373;
+}
+
+.space {
+    background-color: transparent;
+    height: 60px;
+
+}
+
+footer {
+    height: 125px;
+    background-color:rgba(0, 0, 0, .50); 
+    display: flex;
+    justify-content: center;
+}
+
+.rubriques span{
+    margin-left: -200px;
+    padding-top: 13px;
+    font-size: 12px;
+}
+
+.rubriques p {
+    font-size: 10px;
+    margin-left: -190px;
+}
+.faq {
+    padding-top: 16px;
+}
+
+.aide {
+    position: relative;
+    top: -40px;
+    left : 180px;
+    color: #737373;
+}
+
+.cookies {
+    position: relative;
+    top:-23px;
+    left: 180px;
+    color :#737373;
+}
+
+.boutique {
+    position: relative;
+    top:-65px;
+    left: 380px;
+    color: #737373;
+}
+
+.mentions {
+    position: relative;
+    top: -45px;
+    left: 380px;
+    color: #737373;
+}
+
+.conditions {
+    position: relative;
+    top: -88px;
+    left: 530px;
+    color: #737373;
+}
+
+.langues {
+    display: inline-flex;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 11px;
+    padding-left: 15px;
+    padding-right: 10px;
+    position: relative;
+    top:85px;
+    right: 258px;
+
+}
